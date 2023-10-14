@@ -4,6 +4,6 @@ This repository contains the python script that I use to download NBA player dat
 
 This repository does NOT contain my windows scheduler task but follow this tutorial: https://www.jcchouinard.com/python-automation-using-task-scheduler/ if you have windows. The Linux/MacOS equivalent is called Cron. It also does NOT contain the JSON file with my Google Cloud API keys. You will need to go to https://console.cloud.google.com/ and authorize Google Drive access, create a service project, create an API key for the project, and save the JSON file that it provides. Lastly for your drive folder ID, go inside your desired drive folder and copy the last section of its URL.
 
-The functionality currently creates a new file every time the script is run, but I will be changing this to only update the existing file. The code for that is commented out because I haven't correctly implemented it yet. I will do so after what's below happens.  
+The functionality currently creates a new file every time the script is run, but I will be changing this to only update the existing file. The code for that is commented out until what's below happens.
 
 As a note, the url for the AWS S3 bucket currently denies access. It was working as of October 12th, so I'll make sure to check back to see when it starts working again. 
